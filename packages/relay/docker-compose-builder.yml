@@ -1,0 +1,9 @@
+services:
+  ubuntu:
+    image: bosagora/node:18.20-ubuntu-20.04
+    container_name: ubuntu
+    restart: always
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
