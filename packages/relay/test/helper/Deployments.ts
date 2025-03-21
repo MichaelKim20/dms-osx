@@ -959,7 +959,7 @@ async function deployMainChainToken2(accounts: IAccount, deployment: Deployments
     const factory = await hre.ethers.getContractFactory("TestERC20");
     const contract = (await factory
         .connect(accounts.deployer)
-        .deploy(accounts.owner.address, "KIOS2", "KIOS2")) as TestLYT;
+        .deploy(accounts.owner.address, "KIOS2", "KIOS2")) as TestERC20;
     await contract.deployed();
     await contract.deployTransaction.wait();
 
