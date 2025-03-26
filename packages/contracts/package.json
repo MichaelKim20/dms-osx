@@ -1,6 +1,6 @@
 {
     "name": "kios-contracts-v2",
-    "version": "2.16.0",
+    "version": "2.17.0",
     "description": "Smart contracts that decentralized loyalty systems",
     "files": [
         "**/*.sol"
